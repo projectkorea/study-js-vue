@@ -13,10 +13,10 @@
         year: '1889년',
       };
       Picture.art = function () {
-        document.write(`<div style="position:relative;">
-                          <dl style="position:absolute; top:100px; left: 30%;">
+        document.write(`<div style="display:flex; justify-content:center; align-items:center; height:100vh">
+                          <dl>
                             <dt style="text-align:center; padding:0px 0px 20px 40px; font-size:24px;">${Picture.title}</dt>  
-                            <dd style="margin-bottom:10px;"><img src='${Picture.image}' width="500px"  style="box-shadow: 1px 1px 10px 1px black;"/></dd>
+                            <dd style="margin-bottom:10px;"><img src='${Picture.image}' width="300px"  style="box-shadow: 1px 1px 10px 1px black;"/></dd>
                             <dd style="text-align:right;">${Picture.artist}</dd>
                             <dd style="text-align:right;">${Picture.year}</dd>
                           </dl>
